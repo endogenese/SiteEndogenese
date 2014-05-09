@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Endogênese Soluções">
+    <link rel="shortcut icon" href="/assets/ico/endo.png">
+
+    <title>Endog&ecircnese Solu&ccedil;&otilde;es</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jquery core -->
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+   
+
+    <!-- ESTILOS PERSONALIZADOS -->
+  <link href="/css/carousel.css" rel="stylesheet">
+  <link href="/css/endogenese.css" rel="stylesheet">
+  
+      <!-- TemplateBeginEditable name="EditRegion2" -->Estilo personalizado<!-- TemplateEndEditable -->
+  </head>
+
+  <body>
+  <!-- BARRA DE MENU  -->
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>              </button>
+    
+             <a class="navbar-brand endo_font" href="/" style="font-size:24px">Endog&ecircnese Solu&ccedil;&otilde;es</a>            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="/servicos">Servi&ccedil;os</a></li>
+                <li><a href="/cases">Casos de Sucesso</a></li>
+                <li><a href="/empresa/parceiros.html">Parceiros</a></li>
+                <li><a href="/empresa/blog.html">Blog</a></li>
+                <li><a href="/empresa/contatos.html">Contatos</a></li>
+                <li><a href="/empresa/historia.html">Nossa Hist&oacute;ria</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- BARRA DE MENU  -->
+
+
+
+    <!-- CONTEÚDO -->
+  <!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable -->
+
+  <div class="container marketing">
+      <!-- FOOTER -->
+<hr class="featurette-divider">
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; Endog&ecirc;nese Consultoria e Servi&ccedil;os LTDA - 2014. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+     </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="/dist/js/bootstrap.min.js"></script>
+    <script src="/assets/js/docs.min.js"></script>
+ 
+    
+  </body>
+</html>
