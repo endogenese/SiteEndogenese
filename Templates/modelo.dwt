@@ -11,7 +11,7 @@
     <title>Endog&ecircnese Solu&ccedil;&otilde;es</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/dist/css/bootstrap.css" rel="stylesheet">
     <!-- jquery core -->
 <script src="/assets/js/jquery-1.11.0.min.js"></script>
    

@@ -100,3 +100,115 @@ top:0px;
 z-index:-1;
 }
 
+
+/*RESPONSIVIDADE DO SITE*/
+
+@media (max-width: 767px){
+
+.endo_img_servico{
+width:500px; 
+margin:auto;
+border:none; 
+}
+.endo_conteudo_servico{
+width:500px; 
+margin:auto;
+padding-left:10px;
+padding-right:10px;
+border:none; 
+}
+
+.endo_topo_texto{margin-top:10px!important;}
+
+.endo_img_desc_serv{
+margin-left:15%;
+margin-bottom:5%;
+width:350px;
+height:350px;
+}
+.endo_panel-group_serv{width:90%; float:right }
+}
+/*CSS PARA SMARTPHONES*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+.endo_img_servico{
+
+width:750px; 
+margin:auto;
+border:solid; 
+}
+
+.endo_conteudo_servico{
+width:750px; 
+margin:auto;
+padding-left:10px;
+padding-right:10px;
+border:solid; 
+}
+
+.endo_topo_texto{margin-top:10px!important;}
+
+.endo_img_desc_serv{
+margin-left:25%;
+margin-bottom:5%;
+width:400px;
+height:400px;}
+}
+
+.endo_panel-group_serv{width:90%; float:right }
+/*CSS PARA TABLETS*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+.endo_img_servico{
+position: fixed;
+z-index:3; 
+left:65%;
+width:340px; 
+border:dashed;
+float:right!important;
+}
+
+.endo_conteudo_servico{
+width:630px; 
+padding-left:20px;
+padding-right:20px!important;
+border:dashed;
+float:left!important;
+}
+.endo_panel-group_serv{width:90%; float:right }
+.endo_img_desc_serv{
+width:340px;
+height:340px;}
+}
+
+
+@media (min-width: 1200px)  {
+/*Classes aplicadas na descrição dos serviços para efeito parallax, e responsividade*/
+.endo_img_servico{
+position: fixed;
+z-index:3; 
+left:65%;
+width:410px; 
+border:dotted;
+float:right!important;
+
+}
+
+.endo_conteudo_servico{
+float:left!important; 
+width:760px; 
+border:dotted; 
+padding-left:30px
+}
+
+.endo_panel-group_serv{width:50% }
+
+.endo_img_desc_serv{
+
+width:350px;
+height:350px;}
+}
+
+
