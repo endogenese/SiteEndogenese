@@ -12,19 +12,28 @@
 
     <!-- Bootstrap core CSS -->
     <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- jquery core -->
 <script src="/assets/js/jquery-1.11.0.min.js"></script>
    
 
     <!-- ESTILOS PERSONALIZADOS -->
-  <link href="/css/carousel.css" rel="stylesheet">
   <link href="/css/endogenese.css" rel="stylesheet">
+
+  <style>
+
+    #equipe > li.active > a, #equipe > li.active > a:hover, #equipe > li.active > a:focus{
+      border-top-left-radius:50px;
+      -moz-border-top-left-radius:50px;
+    }
+    
+  </style>
   
       <!-- InstanceBeginEditable name="EditRegion2" --><!-- InstanceEndEditable -->
   </head>
 
   <body>
-  <!-- BARRA DE MENU  -->
+  <!-- BARRA DE MENU --> 
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -59,174 +68,191 @@
     <!-- CONTEÚDO -->
   <!-- InstanceBeginEditable name="EditRegion1" -->
   
-<div class="container endo_top">
-<div >
+    <div class="container endo_top">
 
-<h1>Ol&aacute;! <br><small>Ficamos felizes que voc&ecirc; esteja interessado em nos conhecer!</small></h1> 
-</div>
+      <div class="row">
+        <div class="span12">
 
-<div class="row" >
-<div class="col-md-6 col-xs-6" style="text-align:justify; font-size:15px;">
-<p>Iremos apresentar a seguir, algumas coisas que consideramos importantes que voc&ecirc; saiba. De qualquer forma, voc&ecirc; pode ir direto ao ponto que procura, clicando nos links a seguir:</p>
-<ul class="list-group ">
-<a class="limpar_link" href="#Conheca"><li class="list-group-item list-group-item-text ">Conhe&ccedil;a um pouco sobre n&oacute;s...</li></a>
-<a class="limpar_link" href="#"><li class="list-group-item list-group-item-success"><strong>Entenda nosso...</strong></li></a>
-<a class="limpar_link" href="#Nome"><li class="list-group-item list-group-item-success">Nome</li></a>
-<a class="limpar_link" href="#Simbolo"><li class="list-group-item list-group-item-success">S&iacute;mbolo</li></a>
-<a class="limpar_link" href="#Slogan"><li class="list-group-item list-group-item-success">Slogan</li></a>
-<a class="limpar_link" href="#"><li class="list-group-item list-group-item-info"><strong>A base do nosso Planejamento Estrat&eacute;gico</strong></li></a>
-<a class="limpar_link" href="#Missao"><li class="list-group-item list-group-item-info">Miss&atilde;o</li></a>
-<a class="limpar_link" href="#Visao"><li class="list-group-item list-group-item-info">Vis&atilde;o</li></a>
-<a class="limpar_link" href="#Valores"><li class="list-group-item list-group-item-info">Valores</li></a>
-<a class="limpar_link" href="#Equipe"><li class="list-group-item list-group-item-warning">Bom, essa &eacute; nossa equipe de consultores!</li></a>
+          <div class="tabbable tabs-left">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#lA" data-toggle="tab">Sobre nós</a></li>
+              <li><a href="#lB" data-toggle="tab">Entenda nosso...</a></li>
+              <li><a href="#lC" data-toggle="tab">Planejamento</a></li>
+              <li><a href="#lD" data-toggle="tab">Equipe</a></li>
+            </ul>
 
-</ul>
-</div>
-<div class="col-md-6 col-xs-6">
-<img class="img-thumbnail" data-src="holder.js/600x350/auto/#666:#6a6a6a/text:Second slide" style="min-width:250px"/>
+            <div class="tab-content" >
+              <div class="tab-pane active" id="lA">
+                <div style="text-align:justify; font-size:15px">
+                  <h2>Conhe&ccedil;a um pouco sobre n&oacute;s...</h2>
+                    <p>A<font face="Endo"> Endog&ecirc;nese Solu&ccedil;&otilde;es</font> &eacute; uma empresa que presta servi&ccedil;os de Consultoria Empresarial e Consultoria em Tecnologia da Informa&ccedil;&atilde;o. Possu&iacute;mos sede na cidade de Itaituba-PA, onde se concentram a maioria de nossos neg&oacute;cios. Atuamos no mercado desde 2012, e j&aacute; contamos com bastante notoriedade na sociedade, principalmente junto &agrave; classe empresarial, que s&atilde;o nossos clientes potenciais.</p>
+                    <p>A empresa &eacute; fruto dos sonhos acad&ecirc;micos dos atuais s&oacute;cios, Alan Cliff e Michel Yvano, que se conheceram na Universidade Federal do Estado do Par&aacute; (UFPA), onde se graduaram no curso de Tecnologia em Processamento de Dados. Eles perceberam as car&ecirc;ncias que a cidade de Itaituba e demais munic&iacute;pios da regi&atilde;o possuiam (e ainda possuem) no seguimento de consultoria, e resolveram atender essa demanda, aplicando os conhecimentos e experi&ecirc;ncias acumuladas na vida acad&ecirc;mica e em suas atividades profissionais.</p>
 
-</div>
-</div>
-<p>Curta!</p>
-<hr id="Conheca" class="featurette-divider">
-<div style="text-align:justify; font-size:15px">
-<h2>Conhe&ccedil;a um pouco sobre n&oacute;s...</h2>
-  <p>A<font face="Endo"> Endog&ecirc;nese Solu&ccedil;&otilde;es</font> &eacute; uma empresa que presta servi&ccedil;os de Consultoria Empresarial e Consultoria em Tecnologia da Informa&ccedil;&atilde;o. Possu&iacute;mos sede na cidade de Itaituba-PA, onde se concentram a maioria de nossos neg&oacute;cios. Atuamos no mercado desde 2012, e j&aacute; contamos com bastante notoriedade na sociedade, principalmente junto &agrave; classe empresarial, que s&atilde;o nossos clientes potenciais.</p>
-  <p>A empresa &eacute; fruto dos sonhos acad&ecirc;micos dos atuais s&oacute;cios, Alan Cliff e Michel Yvano, que se conheceram na Universidade Federal do Estado do Par&aacute; (UFPA), onde se graduaram no curso de Tecnologia em Processamento de Dados. Eles perceberam as car&ecirc;ncias que a cidade de Itaituba e demais munic&iacute;pios da regi&atilde;o possuiam (e ainda possuem) no seguimento de consultoria, e resolveram atender essa demanda, aplicando os conhecimentos e experi&ecirc;ncias acumuladas na vida acad&ecirc;mica e em suas atividades profissionais.</p>
+                    <p>Fundamentamos nossa atua&ccedil;&atilde;o em valores constru&iacute;dos por nossa equipe, a fim de preservar o bom relacionamento com nossos clientes e parceiros, e prestar nossos servi&ccedil;os com qualidade e efici&ecirc;ncia. Dessa forma almejamos construir nossa hist&oacute;ria. </p>
+                  <p>Este site foi construindo com o objetivo de levar ao conhecimento p&uacute;blico as principais informa&ccedil;&otilde;es &agrave; nosso respeito, e estabelecermos um canal de comunica&ccedil;&atilde;o e intera&ccedil;&atilde;o com nossos clientes. Construimos uma se&ccedil;&atilde;o que cont&eacute;m os principais  <a href="/servicos">servi&ccedil;os</a> que ofertamos dentro de nossas &aacute;reas de atua&ccedil;&atilde;o, por isso, se tiver um tempinho, fique &agrave; vontade para acessar pelo menu superior, ou pelos links, que voc&ecirc; ser&aacute; direcionado.
+                  <p>Neste ambiente, apresentamos ainda alguns <a href="/cases">casos de sucesso</a>. Conhe&ccedil;a algumas hist&oacute;rias de empresas que confiaram em nossos servi&ccedil;os e est&atilde;o gratos por isso!</p>
+                  <p>Disponibilizamos tamb&eacute;m uma p&aacute;gina exclusiva para nossos <a href="/empresa/parceiros.html">parceiros</a>, pessoas e empresas cuja idoneidade asseguramos. Confira seus produtos e servi&ccedil;os!</p>
+                  <p>Alimentamos regularmente nosso <a href="/empresa/blog.html">blog</a>, para que o p&uacute;blico fique informado sobre nossas atividades e not&iacute;cias relevantes para o mercado.</p>
+                  <p>E lembre-se: Voc&ecirc; pode entrar em <a href="/empresa/contatos.html">contato</a> conosco sempre que quiser!</p>
 
-  <p>Fundamentamos nossa atua&ccedil;&atilde;o em valores constru&iacute;dos por nossa equipe, a fim de preservar o bom relacionamento com nossos clientes e parceiros, e prestar nossos servi&ccedil;os com qualidade e efici&ecirc;ncia. Dessa forma almejamos construir nossa hist&oacute;ria. </p>
-<p>Este site foi construindo com o objetivo de levar ao conhecimento p&uacute;blico as principais informa&ccedil;&otilde;es &agrave; nosso respeito, e estabelecermos um canal de comunica&ccedil;&atilde;o e intera&ccedil;&atilde;o com nossos clientes. Construimos uma se&ccedil;&atilde;o que cont&eacute;m os principais  <a href="/servicos">servi&ccedil;os</a> que ofertamos dentro de nossas &aacute;reas de atua&ccedil;&atilde;o, por isso, se tiver um tempinho, fique &agrave; vontade para acessar pelo menu superior, ou pelos links, que voc&ecirc; ser&aacute; direcionado.
-<p>Neste ambiente, apresentamos ainda alguns <a href="/cases">casos de sucesso</a>. Conhe&ccedil;a algumas hist&oacute;rias de empresas que confiaram em nossos servi&ccedil;os e est&atilde;o gratos por isso!</p>
-<p>Disponibilizamos tamb&eacute;m uma p&aacute;gina exclusiva para nossos <a href="/empresa/parceiros.html">parceiros</a>, pessoas e empresas cuja idoneidade asseguramos. Confira seus produtos e servi&ccedil;os!</p>
-<p>Alimentamos regularmente nosso <a href="/empresa/blog.html">blog</a>, para que o p&uacute;blico fique informado sobre nossas atividades e not&iacute;cias relevantes para o mercado.</p>
-<p>E lembre-se: Voc&ecirc; pode entrar em <a href="/empresa/contatos.html">contato</a> conosco sempre que quiser!</p>
+                </div>
+                
+              </div><!-- fim id 1A-->
 
-</div>
+            <div class="tab-pane" id="lB">
 
-<hr id="Nome" class="featurette-divider"></hr>
-<h2>Entenda nosso...</h2>
-   <h1><small> Nome</small></h1>
-<div style="text-align:justify; font-size:15px">
-  <p>Endog&ecirc;nese - A palavra &eacute; de origem grega, onde ENDO significa "posi&ccedil;&atilde;o interior, movimento para dentro", e G&Ecirc;NESE significa "origem, nascimento, cria&ccedil;&atilde;o, gera&ccedil;&atilde;o".</p><p>Conforme o dicion&aacute;rio on-line <a href="http://www.dicio.com.br/endogenese/"  target="_blank" title="Dicio">Dicio</a>, Endog&ecirc;nese significa: "Caracter&iacute;stica de end&oacute;geno; qualidade do que se forma no interior de; processo de crescimento de uma c&eacute;lula no interior de outra; endogenia.". End&oacute;geno, conforme o dicion&aacute;rio on-line <a href="http://michaelis.uol.com.br/moderno/portugues/index.php?lingua=portugues-portugues&palavra=end%F3geno" target="_blank" title="Michaelis">Michaelis</a>, por sua vez significa: "Que cresce de dentro de; Que se desenvolve dentro da parede de c&eacute;lula; Originado dentro do organismo.". Dessa forma surgiu a inspira&ccedil;&atilde;o para o nome da empresa: Endog&ecirc;nese &eacute; a capacidade que certos organismos tem de se desenvolver a partir do seu interior; &eacute; o crescimento que vem de dentro. </p>
-  <p>Para alguns autores, &eacute; poss&iacute;vel observar a endog&ecirc;nese (ou endogenia) na sociedade, quando, por exemplo, pessoas de uma determinada comunidade come&ccedil;am a se mobilizar para melhorar sua situa&ccedil;&atilde;o s&oacute;cio-econ&ocirc;mica, criando associa&ccedil;&otilde;es e cooperativas, promovendo festivais, criando postos de trabalho relacionadas ao turismo, artesanato, agroind&uacute;stria, etc., e aos poucos se tornando agentes transforadores de sua pr&oacute;pria realidade. Ou seja, sem depender exclusivamente de fatores externos (como programas do governo ou investimentos da iniciativa privada de pessoas de fora), a comunidade &eacute; a principal respons&aacute;vel pelo seu crescimento. Esse &eacute; o fen&ocirc;meno social da Endog&ecirc;nese.</p>
-<p>O nome da nossa empresa representa, portanto, nosso desejo em auxiliar as empresas no processo de desenvolvimento interno, por meio de servi&ccedil;os de Consultoria Empresarial e Consultoria em Tecnologia da Informa&ccedil;&atilde;o.</p>
+              <h2>Entenda nosso...</h2>
 
-<hr id="Simbolo" style="visibility:hidden"></hr>
-<h1><small>S&iacute;mbolo</small></h1>
-<div class="row container">
-<div class="row">
-<div class="col-md-6 col-xs-6">
-<p>Nosso s&iacute;mbolo &eacute; composto por duas parte: Ao fundo temos um c&iacute;rculo verde, como uma "c&eacute;lula", que se desnvolve, se ramifica, cresce e gera frutos. Demonstra um processo cont&iacute;nuo de expans&atilde;o, partindo de seu pr&oacute;prio interior.</p>
+              <h1><small> Nome</small></h1>
 
-</div>
+              <div style="text-align:justify; font-size:15px">
+                <p>Endog&ecirc;nese - A palavra &eacute; de origem grega, onde ENDO significa "posi&ccedil;&atilde;o interior, movimento para dentro", e G&Ecirc;NESE significa "origem, nascimento, cria&ccedil;&atilde;o, gera&ccedil;&atilde;o".</p><p>Conforme o dicion&aacute;rio on-line <a href="http://www.dicio.com.br/endogenese/"  target="_blank" title="Dicio">Dicio</a>, Endog&ecirc;nese significa: "Caracter&iacute;stica de end&oacute;geno; qualidade do que se forma no interior de; processo de crescimento de uma c&eacute;lula no interior de outra; endogenia.". End&oacute;geno, conforme o dicion&aacute;rio on-line <a href="http://michaelis.uol.com.br/moderno/portugues/index.php?lingua=portugues-portugues&palavra=end%F3geno" target="_blank" title="Michaelis">Michaelis</a>, por sua vez significa: "Que cresce de dentro de; Que se desenvolve dentro da parede de c&eacute;lula; Originado dentro do organismo.". Dessa forma surgiu a inspira&ccedil;&atilde;o para o nome da empresa: Endog&ecirc;nese &eacute; a capacidade que certos organismos tem de se desenvolver a partir do seu interior; &eacute; o crescimento que vem de dentro. </p>
+                <p>Para alguns autores, &eacute; poss&iacute;vel observar a endog&ecirc;nese (ou endogenia) na sociedade, quando, por exemplo, pessoas de uma determinada comunidade come&ccedil;am a se mobilizar para melhorar sua situa&ccedil;&atilde;o s&oacute;cio-econ&ocirc;mica, criando associa&ccedil;&otilde;es e cooperativas, promovendo festivais, criando postos de trabalho relacionadas ao turismo, artesanato, agroind&uacute;stria, etc., e aos poucos se tornando agentes transforadores de sua pr&oacute;pria realidade. Ou seja, sem depender exclusivamente de fatores externos (como programas do governo ou investimentos da iniciativa privada de pessoas de fora), a comunidade &eacute; a principal respons&aacute;vel pelo seu crescimento. Esse &eacute; o fen&ocirc;meno social da Endog&ecirc;nese.</p>
+                <p>O nome da nossa empresa representa, portanto, nosso desejo em auxiliar as empresas no processo de desenvolvimento interno, por meio de servi&ccedil;os de Consultoria Empresarial e Consultoria em Tecnologia da Informa&ccedil;&atilde;o.</p>
 
-<div class="col-md-6 col-xs-6">
-<p>Sobre a "c&eacute;lula" est&aacute; desenhado as letra E e G, fundidas e estilizadas. S&atilde;o as iniciais das palavras gregas que d&atilde;o origem ao nome: ENDO e G&Ecirc;NESE. O desenho &eacute; preto, com contorno amarelo.</p>
-</div>
+                <hr id="Simbolo" style="visibility:hidden"></hr>
+                <h1><small>S&iacute;mbolo</small></h1>
 
-</div>
-<div class="row">
-<div class="col-md-6 col-xs-6" align="center" >	
-<img class="img-thumbnail" src="/img/fundo.png" width="200px"  style="min-width:100px;background:#DEE1E2"/>
-</div>
-<div class="col-md-6 col-xs-6" align="center">
-<img class="img-thumbnail" src="/img/eg.png"  width="187px" style="min-width:100px;background:#DEE1E2"/>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12 col-xs-12" align="center" style="margin-top:30px">
-<p>Juntos, essas imagens formam o S&iacute;mbolo da Endog&ecirc;nese Solu&ccedil;&otilde;es!</p>
-</div>
-<div class="col-md-12 col-xs-12" align="center">
-<img class="img-thumbnail" src="/img/simbolo.png" width="300px" style="min-width:200px;background:#DEE1E2"/>
-</div>
+                <!-- <div class="row container"> -->
 
-</div>
-</div>
+                  <div class="row" style="margin-right:0px;margin-left:0px">
 
-<h1><small>Slogan</small></h1>
-<p><blockquote>"Gerando ideias para seu crescimento." </blockquote>Essa frase sintetiza a raz&atilde;o de nossa exist&ecirc;ncia. Significa que nosso principal objetivo &eacute; contribuir para o desenvolvimento de nossos clientes por meio de ideias criativas, considerando a realidade atual e as perspectivas futuras de cada empresa. Na pr&aacute;tica, n&atilde;o prestamos servi&ccedil;os de forma padronizada, pois cada caso &eacute; um caso, o que torna a nossa atua&ccedil;&atilde;o extremamente din&acirc;mica, e sem igual para cada cliente. Algumas vezes os clientes j&aacute; nos apresentam uma boa ideia, e nos conseguimos melhor&aacute;-la e torn&aacute;-la fact&iacute;vel.</p>
+                    <div class="span10" style="margin-left:8px">
+
+                      <div class="col-md-6 col-xs-6">
+                        <p>Nosso s&iacute;mbolo &eacute; composto por duas parte: Ao fundo temos um c&iacute;rculo verde, como uma "c&eacute;lula", que se desnvolve, se ramifica, cresce e gera frutos. Demonstra um processo cont&iacute;nuo de expans&atilde;o, partindo de seu pr&oacute;prio interior.</p>
+
+                      </div>
+
+                      <div class="col-md-6 col-xs-6">
+                        <p>Sobre a "c&eacute;lula" est&aacute; desenhado as letra E e G, fundidas e estilizadas. S&atilde;o as iniciais das palavras gregas que d&atilde;o origem ao nome: ENDO e G&Ecirc;NESE. O desenho &eacute; preto, com contorno amarelo.</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row" style="margin-right:0px;margin-left:0px">
+                    <div class="span10" style="margin-left:8px">
+
+                      <div class="col-md-6 col-xs-6" align="center" > 
+                        <img class="img-thumbnail" src="/img/fundo.png" width="200px"  style="min-width:100px;background:#DEE1E2"/>
+                      </div>
+
+                      <div class="col-md-6 col-xs-6" align="center">
+                        <img class="img-thumbnail" src="/img/eg.png"  width="187px" style="min-width:100px;background:#DEE1E2"/>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row" style="margin-right:0px;margin-left:0px">
+                    <div class="span10" style="margin-left:8px">
+                      <div class="col-md-12 col-xs-12" align="center" style="margin-top:30px">
+                        <p>Juntos, essas imagens formam o S&iacute;mbolo da Endog&ecirc;nese Solu&ccedil;&otilde;es!</p>
+                      </div>
+                      <div class="col-md-12 col-xs-12" align="center">
+                        <img class="img-thumbnail" src="/img/simbolo.png" width="300px" style="min-width:200px;background:#DEE1E2"/>
+                      </div>
+                    </div>
+
+                  </div>
+                <!-- </div> -->
+              </div>
+                
+            </div><!-- fim id 1B-->
+
+          
+
+          <div class="tab-pane" id="lC">
+
+
+            <h2 id="Missao">A base do nosso Planejamento Estrat&eacute;gico!</h2>
+            <h1><small>Miss&atilde;o</small></h1>
+
+            <p><blockquote>"Oportunizar o desenvolvimento das empresas de Itaituba e regi&atilde;o, por meio de ideias criativas e inovadoras."</blockquote></p>
+            <p id="Visao"></p>
+
+            <h1><small>Vis&atilde;o</small></h1>
+            <p><blockquote>"Ser refer&ecirc;ncia em consultoria e acessoria empresarial, na cidade de Itaituba e regi&atilde;o at&eacute; 2019."</blockquote></p>
+            <p id="Valores"></p>
+            <h1><small>Valores</small></h1>
+            <p></p>
+            <ul class="list-group" style="width:25%">
+              <li class="list-group-item fade_valores">EFICI&Ecirc;NCIA</li>
+              <li class="list-group-item fade_valores">QUALIDADE</li>
+              <li class="list-group-item fade_valores">SERIEDADE</li>
+              <li class="list-group-item fade_valores">RESPEITO AOS PARCEIROS</li>
+              <li class="list-group-item fade_valores">COMPROMISSO</li>
+              <li class="list-group-item fade_valores">CRIATIVIDADE</li>
+              <li class="list-group-item fade_valores ">INOVA&Ccedil;&Atilde;O</li>
+              <li class="list-group-item fade_valores">ÉTICA</li>
+              <li class="list-group-item fade_valores">RESPONSABILIDADE AMBIENTAL</li>
+              <li class="list-group-item fade_valores">SUSTENTABILIDADE</li>
+            </ul>
+
+          
+
+
+
+          </div><!-- fim id 1C-->
+
+          <div class="tab-pane" id="lD">
+
+            <h2>Bom, esta &eacute; a nossa equipe de consultores!<br>
+            <small>Clique e conhe&ccedil;a cada um!</small></h2>
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" id="equipe">
+              <li class="active"><a href="#alancliff" data-toggle="tab"><img class="img-circle" style="max-width:70px;max-height:70px" src="/img/22.jpg" /></a></li>
+              <li><a href="#michelyvano" data-toggle="tab"><img class="img-circle" style="width:70px;max-height:70px" src="/img/44.jpg" /></a></li>
+              <li><a href="#cristiano" data-toggle="tab"><img class="img-circle" style="width:70px;max-height:70px" src="/img/55.jpg" /></a></li>
+              <li><a href="#glauco" data-toggle="tab"><img class="img-circle" style="width:70px;max-height:70px" src="/img/66.jpg" /></a></li>
+              <li><a href="#wanderson" data-toggle="tab"><img class="img-circle" style="width:70px;max-height:70px" src="/img/wanderson.jpg"/></a></li>
+              <li><a href="#diego" data-toggle="tab"><img class="img-circle" style="width:70px;max-height:70px" src="/img/44.jpg" /></a></li>
+              <li><a href="#fabricio" data-toggle="tab"><img class="img-circle" style="width:70px;max-height:70px" src="/img/55.jpg" /></a></li>
+              <li><a href="#wellington" data-toggle="tab"><img class="img-circle" style="width:70px;max-height:70px" src="/img/66.jpg" /></a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content" style="height:300px">
+              <div class="tab-pane active" id="alancliff"><div class="row" style="margin-right:0px;margin-left:0px"><div class="col-md-4 col-xs-6"> <img src="/img/2.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texexto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
+              
+              
+              <div class="tab-pane" id="michelyvano"><div class="row" style="margin-right:0px;margin-left:0px"><div class="col-md-4 col-xs-6"> <img src="/img/4.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
+              
+              
+              <div class="tab-pane" id="cristiano"><div class="row" style="margin-right:0px;margin-left:0px"><div class="col-md-4 col-xs-6"> <img src="/img/5.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Teexto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
+              
+              
+              <div class="tab-pane" id="glauco"><div class="row" style="margin-right:0px;margin-left:0px"><div class="col-md-4 col-xs-6"> <img src="/img/6.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
+              
+              
+               <div class="tab-pane" id="wanderson"><div class="row" style="margin-right:0px;margin-left:0px"><div class="col-md-4 col-xs-6"> <img src="/img/wanderson2.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Text Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
+              
+              
+              <div class="tab-pane" id="diego"><div class="row" style="margin-right:0px;margin-left:0px"><div class="col-md-4 col-xs-6"> <img src="/img/4.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto exto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
+              
+              
+              <div class="tab-pane" id="fabricio"><div class="row" style="margin-right:0px;margin-left:0px"><div class="col-md-4 col-xs-6"> <img src="/img/5.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
+              
+              
+              <div class="tab-pane" id="wellington"><div class="row" style="margin-right:0px;margin-left:0px"><div class="col-md-4 col-xs-6"> <img src="/img/6.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Tto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
+              
+            </div> <!-- Fim da div do conte?do das abas -->
+
+          </div><!-- FIM 1D-->
+
+        </div><!-- FIM tabbable-->
+
+      </div><!-- FIM span12-->
+
+    </div><!-- FIM row-->
+
 
     
 
-</div>
 
-
-<hr class="featurette-divider">
-
-
-<div>
-  <h2 id="Missao">A base do nosso Planejamento Estrat&eacute;gico!</h2>
-  <h1><small>Miss&atilde;o</small></h1>
-<p><blockquote>"Oportunizar o desenvolvimento das empresas de Itaituba e regi&atilde;o, por meio de ideias criativas e inovadoras."</blockquote></p>
-<p id="Visao"></p>
-
-<h1><small>Vis&atilde;o</small></h1>
-<p><blockquote>"Ser refer&ecirc;ncia em consultoria e acessoria empresarial, na cidade de Itaituba e regi&atilde;o at&eacute; 2019."</blockquote></p>
-<p id="Valores"></p>
-<h1><small>Valores</small></h1>
-<p></p>
-<ul class="list-group" style="width:25%">
-<li class="list-group-item fade_valores">EFICI&Ecirc;NCIA</li>
-<li class="list-group-item fade_valores">QUALIDADE</li>
-<li class="list-group-item fade_valores">SERIEDADE</li>
-<li class="list-group-item fade_valores">RESPEITO AOS PARCEIROS</li>
-<li class="list-group-item fade_valores">COMPROMISSO</li>
-<li class="list-group-item fade_valores">CRIATIVIDADE</li>
-<li class="list-group-item fade_valores ">INOVA&Ccedil;&Atilde;O</li>
-<li class="list-group-item fade_valores">ÉTICA</li>
-<li class="list-group-item fade_valores">RESPONSABILIDADE AMBIENTAL</li>
-<li class="list-group-item fade_valores">SUSTENTABILIDADE</li>
-</ul>
-
-</div>
-
-<hr id="Equipe" class="featurette-divider">
-<h2>Bom, esta &eacute; a nossa equipe de consultores!<br>
-<small>clique e conhe&ccedil;a cada um!</small></h2>
-
-<hr>
-
-<!-- Nav tabs -->
-<ul class="nav nav-tabs">
-  <li class="active"><a href="#alancliff" data-toggle="tab"><img class="img-circle" src="/img/22.jpg" /></a></li>
-  <li><a href="#michelyvano" data-toggle="tab"><img class="img-circle" src="/img/44.jpg" /></a></li>
-  <li><a href="#cristiano" data-toggle="tab"><img class="img-circle" src="/img/55.jpg" /></a></li>
-  <li><a href="#glauco" data-toggle="tab"><img class="img-circle" src="/img/66.jpg" /></a></li>
-  <li><a href="#wanderson" data-toggle="tab"><img class="img-circle" src="/img/wanderson.jpg" width="100" height="100"/></a></li>
-  <li><a href="#diego" data-toggle="tab"><img class="img-circle" src="/img/44.jpg" /></a></li>
-  <li><a href="#fabricio" data-toggle="tab"><img class="img-circle" src="/img/55.jpg" /></a></li>
-  <li><a href="#wellington" data-toggle="tab"><img class="img-circle" src="/img/66.jpg" /></a></li>
-</ul>
-
-<!-- Tab panes -->
-<div class="tab-content" style="height:300px">
-  <div class="tab-pane active" id="alancliff"><div class="row"><div class="col-md-4 col-xs-6"> <img src="/img/2.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texexto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
-  
-  
-  <div class="tab-pane" id="michelyvano"><div class="row"><div class="col-md-4 col-xs-6"> <img src="/img/4.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
-  
-  
-  <div class="tab-pane" id="cristiano"><div class="row"><div class="col-md-4 col-xs-6"> <img src="/img/5.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Teexto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
-  
-  
-  <div class="tab-pane" id="glauco"><div class="row"><div class="col-md-4 col-xs-6"> <img src="/img/6.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
-  
-  
-   <div class="tab-pane" id="wanderson"><div class="row"><div class="col-md-4 col-xs-6"> <img src="/img/wanderson2.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Text Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
-  
-  
-  <div class="tab-pane" id="diego"><div class="row"><div class="col-md-4 col-xs-6"> <img src="/img/4.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto exto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
-  
-  
-  <div class="tab-pane" id="fabricio"><div class="row"><div class="col-md-4 col-xs-6"> <img src="/img/5.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
-  
-  
-  <div class="tab-pane" id="wellington"><div class="row"><div class="col-md-4 col-xs-6"> <img src="/img/6.jpg" width="100%" style="margin-top:20px"/> </div>   <div class="col-md-8 col-xs-12"> <div style="margin-top:20px">"&Aacute;gua mode em pedra dura tanto bate at&eacute; que fura"</div><div> <hr style="margin-left:20%; margin-right:20%"> Texto Tto Texto </div></div>    </div>    </div> <!-- Fim da div que contem a aba de um colaborador -->
-  
-</div> <!-- Fim da div do conte?do das abas -->
-
-</div>
+  </div><!--- fim container--> 
 
   <!-- InstanceEndEditable -->
 

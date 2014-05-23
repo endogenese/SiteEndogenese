@@ -39,7 +39,7 @@ border-bottom-left-radius: 250px;
 .fotorama__caption{font-family:Verdana, Arial, Helvetica, sans-serif!important;font-size:24px!important;}
 
 /* Ajuste da borda, para arredondá-la mais de um lado, nas abas que tratam dos consultores, na página padrão Nossa História */
-.nav-tabs>li>a{border-radius:50px 4px 0 0!important;}
+.nav-tabs-endo-cons>li>a{border-radius:50px 4px 0 0!important;}
 
 
 /*Contorno com bordas arredondadas da DIV na página de Casos de Sucesso (Depoimentos)*/
