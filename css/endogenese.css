@@ -10,21 +10,26 @@ font-family:Endo;
 
 }
 
-/*Arrendondamento das bordas das imagens na Home Page*/
+/*Arrendondamento das bordas das imagens na Home Page *** EXCLUIDA AS IMAGENS*/
 
 .img_arred_1{
 
-border-top-left-radius: 250px;
+border-top-left-radius: 40px;
 border-top-right-radius: 250px;
 border-bottom-right-radius: 250px;
 border-bottom-left-radius: 40px;
+margin-left:20px;
+margin-bottom:20px;
+
 }
 .img_arred_2{
 
 border-top-left-radius: 250px;
-border-top-right-radius: 250px;
+border-top-right-radius: 40px;
 border-bottom-right-radius: 40px;
 border-bottom-left-radius: 250px;
+margin-right:20px;
+margin-bottom:20px;
 }
 
 
@@ -86,7 +91,82 @@ font-weight:bolder;
 transition:background-color 1s, color 0.5s;
 }
 
+/* Efeito nos circulos na página index*/
+.endo_circulo_index{
+          transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -webkit-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+        }
+
+        .endo_circulo_index:hover{
+          margin-top: -15px;
+          margin-bottom: 15px;
+        }
+
+
+/*Personalização do MENU*/
+  .navbar-wrapper .navbar {
+
+border-bottom-right-radius: 30px!important;
+border-bottom-left-radius: 30px!important;
+
+
+  }
+  
+ .endo_menu{
+ transition-duration: 0.5s;
+ -moz-transition-duration: 0.5s;
+ -webkit-transition-duration: 0.5s;
+ -o-transition-duration: 0.5s;
+ 
+ }
+.endo_menu:hover{
+margin-top: -5px;
+margin-bottom: 5px;
+background-color:#333333;
+border-radius: 8px;
+
+}
+/*Personalização do rodapé*/
+
+.endo_rodape_img{
+ transition-duration: 0.5s;
+ -moz-transition-duration: 0.5s;
+ -webkit-transition-duration: 0.5s;
+ -o-transition-duration: 0.5s;
+ }
+
+.endo_rodape_img:hover{
+}
+
+/* Featurettes------------------------- */
+
+
+
+.featurette-divider {
+
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+
+}
+
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+
+  font-weight: 300;
+
+  line-height: 1;
+
+  letter-spacing: -1px;
+
+}
+
+
 /* não lembro onde essas classes funcionam.*/
+/*
 .endo_titulo{
 
 text-align:center;
@@ -99,23 +179,36 @@ left:0px;
 top:0px;
 z-index:-1;
 }
+*/
+/*MODIFICAÇÃO DA CLASSE MODAL NA PÁGINA DE PARCEIROS*/
+.modal{
 
-
+margin-top:15%;}
 /*RESPONSIVIDADE DO SITE*/
+
+.endo_linha{
+
+width:400px;
+margin:auto;
+margin-bottom:10px;
+margin-top:10px;
+}
 
 @media (max-width: 767px){
 
+
+
 .endo_img_servico{
-width:500px; 
+min-width:100px;
 margin:auto;
-border:none; 
+
 }
 .endo_conteudo_servico{
-width:500px; 
+min-width:100px;
 margin:auto;
 padding-left:10px;
 padding-right:10px;
-border:none; 
+
 }
 
 .endo_topo_texto{margin-top:10px!important;}
@@ -123,10 +216,26 @@ border:none;
 .endo_img_desc_serv{
 margin-left:15%;
 margin-bottom:5%;
-width:350px;
-height:350px;
+width:250px;
+height:250px;
+
+
+
+          transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -webkit-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+        }
+
+        .endo_img_desc_serv:hover{
+background-color:#BBEAC6;
 }
-.endo_panel-group_serv{width:90%; float:right }
+.endo_panel-group_serv{width:90%; }
+
+.img_arred_1 {float:none !important;margin:auto;}
+.img_arred_2 {float:none !important;margin:auto;}
+
+
 }
 /*CSS PARA SMARTPHONES*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -136,7 +245,7 @@ height:350px;
 
 width:750px; 
 margin:auto;
-border:solid; 
+
 }
 
 .endo_conteudo_servico{
@@ -144,7 +253,7 @@ width:750px;
 margin:auto;
 padding-left:10px;
 padding-right:10px;
-border:solid; 
+ 
 }
 
 .endo_topo_texto{margin-top:10px!important;}
@@ -152,11 +261,24 @@ border:solid;
 .endo_img_desc_serv{
 margin-left:25%;
 margin-bottom:5%;
-width:400px;
-height:400px;}
+width:350px;
+height:350px;
+
+
+     transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -webkit-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+        }
+
+        .endo_img_desc_serv:hover{
+background-color:#BBEAC6;
+    
 }
 
-.endo_panel-group_serv{width:90%; float:right }
+.endo_panel-group_serv{width:90%;  }
+
+}
 /*CSS PARA TABLETS*/
 @media (min-width: 992px) and (max-width: 1199px){
 
@@ -166,7 +288,6 @@ position: fixed;
 z-index:3; 
 left:65%;
 width:340px; 
-border:dashed;
 float:right!important;
 }
 
@@ -174,10 +295,9 @@ float:right!important;
 width:630px; 
 padding-left:20px;
 padding-right:20px!important;
-border:dashed;
 float:left!important;
 }
-.endo_panel-group_serv{width:90%; float:right }
+.endo_panel-group_serv{width:90%; }
 .endo_img_desc_serv{
 width:340px;
 height:340px;}
@@ -191,24 +311,22 @@ position: fixed;
 z-index:3; 
 left:65%;
 width:410px; 
-border:dotted;
 float:right!important;
 
 }
 
 .endo_conteudo_servico{
-float:left!important; 
 width:760px; 
-border:dotted; 
-padding-left:30px
+padding-left:20px;
+padding-right:20px!important;
+float:left!important;
 }
 
-.endo_panel-group_serv{width:50% }
+.endo_panel-group_serv{width:90%; }
 
 .endo_img_desc_serv{
-
-width:350px;
-height:350px;}
+width:400px;
+height:400px;}
 }
 
 
