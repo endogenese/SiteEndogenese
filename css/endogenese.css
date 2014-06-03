@@ -186,7 +186,6 @@ z-index:-1;
 .modal{
 
 margin-top:15%;}
-/*RESPONSIVIDADE DO SITE*/
 
 .endo_linha{
 
@@ -195,6 +194,22 @@ margin:auto;
 margin-bottom:10px;
 margin-top:10px;
 }
+
+/*Tratamentos nos elementos da página nossa história>Equipe*/
+
+.endo_tumb_equipe img{width:70px;height:70px;}
+endo_perfil_equipe {min-height:500px!important;max-height:500px!important;}
+.endo_perfil_equipe img{width:300px; height:300px;}
+.endo_perfil_equipe hr{margin-left:20%; margin-right:20%}
+.endo_perfil_equipe div{margin-top:20px;margin-right:0px;margin-left:0px;text-align:justify;}
+.endo_perfil_equipe blockquote{text-align:center;}
+
+
+/*
+/*
+/*
+/*******************************RESPONSIVIDADE DO SITE**********************************************/
+
 
 @media (max-width: 767px){
 
