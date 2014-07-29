@@ -77,13 +77,13 @@ body {
 /* Carousel base class */
 
 .carousel {
+margin:auto;
 margin-top:50px;
-  height: 500px;
-
-  margin-bottom: 60px;
+height:400px;
+margin-bottom: 60px;
 
 }
-
+.asd{}
 /* Since positioning the image, we need to help out the caption */
 
 .carousel-caption {
@@ -98,7 +98,7 @@ margin-top:50px;
 
 .carousel .item {
 
-  height: 500px;
+  height: 400px;
 
   background-color: #777;
 
@@ -114,11 +114,52 @@ margin-top:50px;
 
   min-width: 100%;
 
-  height: 500px;
+  height: 400px;
+
+}
+.carousel-inner{
+border-radius: 0 0 40px 40px;
+border: 4px solid #D2D3D5;
+border-top:0;
+}
+
+.carousel-control.left{
+border-radius: 0 0 0 40px;
+background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .1) 0%), color-stop(rgba(0, 0, 0, .0001) 100%));
+background-image:         linear-gradient(to right, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, .0001) 100%);
+}
+.carousel-control.right {
+border-radius: 0 0 40px 0;
+background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .0001) 0%), color-stop(rgba(0, 0, 0, .1) 100%));
+background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .1) 100%);
+}
+
+/*TAMANHO XS - CELULARES PEQUENOS*/
+@media (max-width: 767px){
+
+}
+/*TAMANHO SM - SMARTPHONES GRADES E TABLETS PEQUENOS*/
+@media (min-width: 768px) and (max-width: 991px) {
+.carousel {
+width: 750px;
 
 }
 
 
+}
+/*TAMANHO MD - TABLETS GRANDES E COMPUTADORES MÉDIOS*/
+@media (min-width: 992px) and (max-width: 1199px){
+ .carousel {
+  width: 970px;
+  }
+}
+
+/*TAMANHO LG - COMPUTADORES E DISPOSITIVOS COM TELAS GRANDES*/
+@media (min-width: 1200px)  {
+.carousel {
+ width: 1170px;
+ }
+}
 
 
 
