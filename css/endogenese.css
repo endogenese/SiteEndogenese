@@ -15,6 +15,19 @@ font-family:Endo;
 /*Ajuste no texto de rodapé para centralizar. Altera nos tamanhos XS e SM*/
 .endo_texto_rodape{padding-left:26%;}
 
+.endo-icon{
+border:2px solid #999;
+background-color:#FFFFFF;
+padding: 3px 3px 3px 3px;
+border-radius: 3px 3px 3px 3px;
+}
+.endo-icon:hover{
+color: #fff;
+background-color:#000;
+cursor:default;
+}
+
+
 
 .endo_img_consultorias{
 
@@ -222,6 +235,12 @@ max-width:100%;
           -webkit-transition-duration: 0.5s;
           -o-transition-duration: 0.5s;
         }
+.endo-box{
+background-color:#EEEEEE;
+border-radius: 6px 6px 6px 6px;
+margin-top:20px;
+padding: 10px;
+}
 /*
 /*
 /*
@@ -279,6 +298,10 @@ margin-bottom: 15px;
 .endo_circulo_index{
 width: 20%;
 min-width:80px;
+}
+.endo-mapa
+{
+height:250px;
 }
 }
 /*TAMANHO SM - SMARTPHONES GRADES E TABLETS PEQUENOS*/
