@@ -1,11 +1,14 @@
 /* CSS PADRÃO ENDOGÊNSE SOLUÇÕES */
 
-body{background-image:url(/img/geral/fundo/squared_metal.jpg)}
+body{
+  background-image:url('/img/geral/fundo/squared_metal.jpg');
+  background-attachment: fixed;
+}
 
 /* FONTE DO NOME ENDOGÊNESE*/
     @font-face {
     font-family: Endo;
-    src: url(/fontes/Freehand.ttf);
+    src: url('/fontes/Freehand.ttf');
     }
 .endo_font{
 font-family:Endo;
@@ -76,6 +79,7 @@ color:inherit;
 /*Efeito de transição na lista de VALORES na página Nossa História*/
 
 .fade_valores:hover{
+cursor: default;
 color:#fff;
 background-color:#ccc;
 font-weight:bolder;
